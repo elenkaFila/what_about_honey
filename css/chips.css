@@ -1,0 +1,18 @@
+.chips {
+   padding:10px 20px;
+   margin: 10px 20px;
+   border-radius: 5px;
+   background: rgb(245, 187, 28);
+   background-image: url("../img/bee_PNG74727.png");
+  background-position: right center;
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+   /* color: #fff; */
+}
+
+.chips-field {
+   width: 300px;
+   position: fixed;
+   right: 10px;
+   top: 10px;
+}
