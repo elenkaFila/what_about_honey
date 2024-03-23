@@ -70,50 +70,51 @@ body {
  }
  
  .links__container {
-   list-style-type: none;
-   background: #ffffff;
-   border-radius: 10px;
-   display: flex;
-   flex-direction: column;
-   align-items: flex-start;
-   padding: 20px 20px 10px;
-   gap: 10px;
-   flex: none;
-   order: 1;
-   flex-grow: 0;
-   box-sizing: border-box;
-   margin: 0;
+    list-style-type: none;
+    background: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 20px 10px;
+    gap: 10px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    box-sizing: border-box;
+    margin: 0;
  }
  
  .links__link,
  .links__title {
-   font-size: 14px;
-   font-size: 1.4;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
  }
  
  .links__link {
-   display: flex;
-   flex-direction: row;
-   align-items: flex-start;
-   padding: 0px 0px 10px;
-   gap: 10px;
-   border-bottom: 12px solid #dadada;
-   width: 860px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px 0px 10px;
+    gap: 10px;
+    border-bottom: 1px solid #dadada;
+    width: 860px;
  }
  
  .links__link:last-child {
-   border-bottom: none;
+    border-bottom: none;
  }
  
- .linsk__link,
+ .links__link,
  .links__link:visited {
-   text-decoration: none;
-   color: #cb782f;
+    text-decoration: none;
+    color: #CC9933;
  }
  
  .links__title {
-   margin: 0;
-   min-width: 100px;
+    margin: 0;
+    min-width: 100px;
  }
  
  footer {
@@ -127,14 +128,40 @@ body {
 
 .social__mail:focus {
   outline-offset: 5px;
-  outline: 1px solid #71A7E2;
+  outline: 1px solid #CC9933;
 }
 
 .social__mail:hover {
-  stroke: #71A7E2;
+  stroke: #CC9933;
 }
 
 .social__mail:active {
-  stroke: #3172B9;
+  stroke: #8b6822;
+}
+
+.btn {
+  padding: 13px 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #CC9933;   
+  border: 1px solid #CC9933;
+  border-radius: 10px;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
 }
  
+.btn:focus {
+  background-color: #CC9933;
+  color:#FFFFFF;
+  outline: none;
+}
+
+.btn:hover {
+  background-color: #CC9933;
+  color:#FFFFFF;
+}
+
+.btn:active {
+  background-color: #CC9933;
+  color:#FFFFFF;
+}
