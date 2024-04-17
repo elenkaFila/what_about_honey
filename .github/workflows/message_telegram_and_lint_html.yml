@@ -24,8 +24,6 @@ jobs:
             See changes: https://github.com/${{ github.repository }}/commit/${{github.sha}}
 
       - name: Checkout
-        uses: actions/checkout@v3
-      - name: Пройти проверки CSS линтера
-        uses: actions-hub/stylelint@master
-        env:        
-          PATTERN: "**/*.css"
+        uses: actions/checkout@v4
+      - name: Пройти проверки HTML5 Validator
+        uses: Cyb3r-Jak3/html5validator-action-experimental@master
